@@ -1,0 +1,36 @@
+[submodule "lib/bump"]
+	path = lib/bump
+	url = https://github.com/kikito/bump.lua
+[submodule "lib/anim8"]
+	path = lib/anim8
+	url = https://github.com/kikito/anim8
+[submodule "lib/gamera"]
+	path = lib/gamera
+	url = https://github.com/kikito/gamera
+[submodule "lib/lovebird"]
+	path = lib/lovebird
+	url = https://github.com/rxi/lovebird
+[submodule "lib/shack"]
+	path = lib/shack
+	url = https://github.com/Ulydev/shack
+[submodule "lib/simple-tiled-implementation"]
+	path = lib/simple-tiled-implementation
+	url = https://github.com/karai17/Simple-Tiled-Implementation
+[submodule "lib/lume"]
+	path = lib/lume
+	url = https://github.com/rxi/lume
+[submodule "lib/Editgrid"]
+	path = lib/Editgrid
+	url = https://github.com/bakpakin/Editgrid
+[submodule "lib/Love-Debug-Graph"]
+	path = lib/Love-Debug-Graph
+	url = https://github.com/Mechazawa/Love-Debug-Graph.git
+[submodule "lib/hump"]
+	path = lib/hump
+	url = https://github.com/vrld/hump
+[submodule "lib/Jumper"]
+	path = lib/Jumper
+	url = https://github.com/Yonaba/Jumper
+[submodule "lib/SUIT"]
+	path = lib/SUIT
+	url = https://github.com/vrld/SUIT

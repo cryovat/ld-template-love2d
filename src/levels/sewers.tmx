@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="24" tileheight="24" nextobjectid="5">
+ <tileset firstgid="1" name="sewer_tileset" tilewidth="24" tileheight="24" tilecount="72" columns="8">
+  <image source="sewer_tileset.png" trans="ff00ff" width="192" height="217"/>
+  <terraintypes>
+   <terrain name="Walls" tile="69"/>
+  </terraintypes>
+  <tile id="0" terrain="0,0,0,0">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index">
+    <object id="1" x="-13" y="-28" width="58" height="76"/>
+    <object id="2" x="13" y="21" width="7" height="19"/>
+    <object id="3" x="-51" y="-28" width="94" height="61"/>
+   </objectgroup>
+  </tile>
+  <tile id="1" terrain="0,0,0,0">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2" terrain="0,0,0,0">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="8" terrain="0,0,0,0">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="9" terrain="0,0,0,0">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="10" terrain="0,0,0,0">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+   <animation>
+    <frame tileid="38" duration="200"/>
+    <frame tileid="68" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="11" terrain="0,0,0,0">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12" terrain="0,0,0,0">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="13" terrain="0,0,0,0">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="16" terrain="0,0,0,0">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="17" terrain="0,0,0,0">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="18" terrain="0,0,0,0">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="19" terrain="0,0,0,0">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="20" terrain="0,0,0,0">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="21" terrain="0,0,0,0">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="38" terrain="0,0,0,">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="39" terrain="0,,0,0">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="46" terrain="0,0,0,0">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="47" terrain="0,0,0,0">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="54" terrain="0,0,0,0"/>
+  <tile id="55" terrain="0,0,0,0"/>
+  <tile id="62" terrain="0,0,0,0"/>
+  <tile id="63" terrain="0,0,0,0"/>
+  <tile id="67">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="68" terrain="0,0,0,0">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="69" terrain="0,0,0,0">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="70" terrain="0,0,0,0"/>
+  <tile id="71" terrain="0,0,0,0"/>
+ </tileset>
+ <layer name="Bottom" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt19kKwjAQBdDim0sFqwguL3Vf/sP//ySnkIFhSGrSdEnxPhyQxqJ32kySPMuyJTkZC5KLa2dyNEo1Lsds3wkl/4f+7V/0/f+Y40Je5GpUn2+J5NiQCdmO/HlMyYzMI3JwLUJx7drIsSIFWUfk4FrY3GvGuHb8vr4jcmhNcnAtpIflmmar3VA5nqaWMUKeQ1d9dyht59iRPTmMPEdpua8Put/Frh88P5q84zFkv/NZP2TOlOaH7Hc+64fMmdL8cPVbV9+tcn5MzpTmR0gv12uDbQ4MNT8AIA73Uq3v3hqLe2ldTx4D21k1tf2ubw59Vk1tX+KbQ59VXfuSlMn9SJHV70tS5jqrYu8BAAAAAAAAAABd+wIHfQq1
+  </data>
+ </layer>
+ <layer name="Top" width="50" height="50" opacity="0.49">
+  <data encoding="base64" compression="zlib">
+   eJzt1jsKgDAQQEELtVKvYuGvEDvvfya3MBeQQAzMwCPdsum2af5lL71AJv7xL7X+Y46WtzXayq7z2RGd0f2+V6a5bdRFfaZ5pQzRGE2lFwEAoArpDk7Veg+nOzjlHgYAAAAAIIcHvboDlQ==
+  </data>
+ </layer>
+ <objectgroup name="Rawr">
+  <object id="1" gid="11" x="210" y="381" width="24" height="24"/>
+  <object id="2" gid="11" x="359" y="198" width="24" height="24"/>
+  <object id="3" gid="11" x="386" y="272" width="24" height="24"/>
+  <object id="4" gid="11" x="449" y="227" width="24" height="24"/>
+ </objectgroup>
+</map>
