@@ -62,7 +62,7 @@ function TileState.__call(self, path)
      
       love.graphics.setColor(r,g,b,a)
      
-      drawDebugOverlays()
+      drawOverlays()
      
     end)
     

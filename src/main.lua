@@ -23,9 +23,11 @@ TileState     = require 'framework.TileState'
 local start = {}
 local cam = nil
 
-function drawDebugOverlays()
+function drawOverlays()
   fpsGraph:draw()
   memGraph:draw()  
+  
+  suit.draw()
 end
 
 function love.load(arg)
@@ -49,8 +51,12 @@ function love.draw()
   
 end
 
+function love.textinput(t)
+  suit.textinput(t)
+end
+
 function love.keypressed(key, scancode, isRepeat)
-  
+  suit.keypressed(key)
 end
 
 function love.keyreleased(key)

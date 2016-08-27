@@ -6,6 +6,7 @@ mklink /H "src\thirdparty\debugGraph.lua"     "lib\Love-Debug-Graph\debugGraph.l
 mklink /H "src\thirdparty\lovebird.lua"       "lib\lovebird\lovebird.lua"
 mklink /H "src\thirdparty\lume.lua"           "lib\lume\lume.lua"
 mklink /H "src\thirdparty\shack.lua"          "lib\shack\shack.lua"
+mklink /H "src\thirdparty\tiny.lua"          "lib\tiny-ecs\tiny.lua"
 
 mklink /J "src\thirdparty\jumper"             "lib\Jumper\jumper"
 mklink /J "src\thirdparty\suit"               "lib\SUIT"
